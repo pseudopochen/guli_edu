@@ -9,7 +9,7 @@ backend is built using Spring Cloud and the frontends are written using Vue.
 ### Backend modules
 
 - **Authentication and authorization:**
-This module is built using ```srping security```. Permissions are assigned to roles,
+This module is built using ```spring security```. Permissions are assigned to roles,
 and roles are assigned to users. CRUD operations are implemented for 5 MySQL tables
 storing the permission/role/user data and the relations between them. 
 Single-sign-on (SSO) is implemented using ```json-web-token``` with user info cached in ```redis```. 
